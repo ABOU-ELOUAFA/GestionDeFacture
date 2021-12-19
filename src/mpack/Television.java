@@ -3,7 +3,7 @@ package mpack;
 public class Television extends Product {
     int size;
     String slabTybe;
-int for-branch
+
 
     public Television(String name, String description, double price, int size, String slabTybe) {
         super(name, description, price);
