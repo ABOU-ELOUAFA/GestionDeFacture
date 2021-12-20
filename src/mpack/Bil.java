@@ -1,12 +1,19 @@
 package mpack;
 
+import java.util.HashMap;
 import java.util.Map;
 
 public class Bil {
    private Client customer;
-   private Map<Product,Integer> products;
+   private Map<Product,Integer> products=new HashMap<>();
+   private Delivery delivery;
 
-    public void addProduct(Product produit,Integer quantity){
+    public Bil(Client customer, Delivery delivery) {
+        this.customer = customer;
+        this.delivery = delivery;
+    }
+
+    public void addProduct(Product produit, Integer quantity){
         this.products.put(produit,quantity);
 
     }
@@ -19,7 +26,4 @@ public class Bil {
         return products;
     }
 
-    public Bil(Client customer) {
-        this.customer = customer;
-    }
 }
