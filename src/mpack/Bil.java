@@ -4,7 +4,7 @@ import java.util.Map;
 
 public class Bil {
    private Client customer;
-    private Map<Product,Integer> products;
+   private Map<Product,Integer> products;
 
     public void addProduct(Product produit,Integer quantity){
         this.products.put(produit,quantity);
