@@ -1,4 +1,4 @@
-package mpack;
+package main.java.mpack;
 
 public class Television extends Product {
     int size;

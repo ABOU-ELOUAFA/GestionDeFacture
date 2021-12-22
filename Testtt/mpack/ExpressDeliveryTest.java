@@ -1,5 +1,7 @@
 package mpack;
 
+import main.java.mpack.Delivery;
+import main.java.mpack.ExpressDelivery;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

@@ -1,4 +1,4 @@
-package mpack;
+package main.java.mpack;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -25,6 +25,7 @@ public class Bil {
     public Map<Product, Integer> getProducts() {
         return products;
     }
+
     public double getTotal(){
         double total=delivery.getPrice();
         for (Product i:products.keySet()) {
@@ -56,5 +57,6 @@ public class Bil {
        write.stop();
 
     }
+
 
 }
